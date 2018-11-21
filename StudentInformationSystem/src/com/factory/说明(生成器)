@@ -1,0 +1,7 @@
+使用说明：
+配置：JDBC的jar包
+Step1:使用jdbc.Properties,设置jdbc参数
+Step2:使用PAJOFactory.java工具类的getPojo(String tabName,String packagePath)方法得到Pojo实体类
+Step3:设置主键序列注解
+Step4:在Pojo实体类中系统生成set/get方法
+Step5:使用DAOFactory.java工具类的getDAO(Object obj,String packagePath)方法得到DAO类
